@@ -1,0 +1,54 @@
+
+
+main parts:
+
+stm32f107vct6
+lan8720a
+esp-01s wifi module
+
+
+stm32 pinout:
+
+NRST - phy_nrst
+
+PA0  - led
+PA1  - phy_refclk
+PA2  - phy_mdio
+
+PA8  - rs485 enable
+PA9  - uart tx
+PA10 - uart rx
+
+PA14 - swd
+PA13 - swd
+
+PB8  - can_rx
+PB9  - can_tx
+
+PB11 - phy_txen
+PB12 - phy_txd0
+PB13 - phy_txd1
+
+PC1  - phy_mdc
+
+PD5  - esp - usart2_tx
+PD6  - esp - usart2_rx
+PD7  - esp_reset
+PD8  - phy_crsdv
+PD9  - phy_rxd0
+PD10 - phy_rdx1
+PD11 - default jumper
+
+PE0  - input 1
+PE1  - input 2
+PE2  - input 3
+PE3  - input 4
+
+PE8  - relay 1
+PE9  - relay 2
+PE10 - relay 3
+PE11 - relay 4
+
+
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<title>IAP</title>
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+</head>
+<body class="container" id="login-form">
+<h3>Select file to flash</h3>
+<fieldset>
+<FORM METHOD=POST ACTION="/upload.cgi" enctype="multipart/form-data">
+<input type="file" name="file" size="40">
+<input type="submit" value="Flash">
+</form>
+<footer class="clearfix">
+<p><a href="/resetmcu.cgi">Reboot withou flashing</a></p>
+</footer>
+</fieldset>
+</body>
+</html>

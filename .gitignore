@@ -1,0 +1,12 @@
+fw_main/crap/
+bin/*
+/*/FLASH_RUN/
+various/*
+toolchain/*
+stats/*
+pkg/*
+*.o
+*.pyc
+*.lst
+*.d
+.hg

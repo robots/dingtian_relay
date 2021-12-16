@@ -1,0 +1,4 @@
+./genfw.py --fw-file ./bridge_v1.bin --out-file bridge_v1.ecb --board v1
+./genfw.py --fw-file ./bridge_v1.bin --out-file bridge_v1.cbc --board v1 --crypt-mode CBC --crypt-iv asdfghjk
+./genfw.py --fw-file ./bridge_v1.bin --out-file bridge_v1.cbc --board v1 --crypt-mode CBC --crypt-iv random
+
